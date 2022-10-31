@@ -1,5 +1,5 @@
-c=float(input("enter circumference of a circle"))
-r=float("enter radius")
-r=c/3.14*2
+circumference=float(input("enter the circumference "))
+r=circumference/(2*3.14)
+print(r)
 area=3.14*r*r
-print(area)
+print("area is:",area)
