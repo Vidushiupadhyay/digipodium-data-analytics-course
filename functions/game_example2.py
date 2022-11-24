@@ -14,10 +14,10 @@ def draw():
 
 def update():
     print('Updating')
-    p.x += 1
+    p.x += -3
     p.angle = -10
-    if p.x > WIDTH:
-        p.x = 0
+    if p.x < 0:          # AGAR PLAYER LEFT SIDE SE BAHAR JAYE TOH
+        p.x = WIDTH
     print(p.x,p.y)
 
 pgzrun.go()
