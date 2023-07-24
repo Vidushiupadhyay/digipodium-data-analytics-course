@@ -1,5 +1,5 @@
 -- SQLite
--- you can update the scheema of a table using ALTR
+-- you can update the scheema of a table using ALTER
 -- ALTER TABLE products ADD COLUMN discount INTEGER;(ye wali query ek baari run kara kar ke , isko comment kar dena h nhi toh jitni baar hum pura code run karenge , unti baari column add hoga)
 
 -- you can remove a column using DROP COLUMN in ALTER

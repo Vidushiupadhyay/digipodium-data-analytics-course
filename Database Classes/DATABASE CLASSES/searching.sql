@@ -10,8 +10,7 @@ SELECT * FROM customers WHERE firstname LIKE '%a';
 SELECT * FROM customers WHERE lastname LIKE '%a%' ORDER BY lastname;
 
 -- find all customers where firstname has 'a' on the 3rd position
-SELECT * FROM customers WHERE firstname LIKE '__a%';
-
+3
 -- important 
 -- sqlite wildcard % is equivalent to mysql wildcard *
 -- sqlite wildcard _ is equivalent to mysql wildcard ?
